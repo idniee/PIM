@@ -1,0 +1,121 @@
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: auto;
+      }
+
+      td{
+      border: 1px solid #f4e1d2;
+      text-align: left;
+      padding: 8px;
+      }
+
+      tr:nth-child(even) {
+      background-color: #f4e1d2;
+      border: 1px solid black;
+      }
+      th{
+        border: 1px solid black;
+        background-color: #80ced6;
+        text-align: left;
+        padding: 8px;
+      }
+
+
+      .button {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+      }
+      .button5:hover {
+        background-color: #555555;
+        color: white;
+      }
+      .dropbtn {
+        background-color: #9370DB;
+        color: white;
+        padding: 6px;
+        font-size: 25px;
+        border: none;
+        border-radius: 10px;
+      }
+
+      .dropdown {
+        position: relative;
+        display: inline-block;
+        margin-left: 10px;
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        border-radius: 50px;
+      }
+
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        border-radius: 40px;
+      }
+
+      .dropdown-content a:hover {background-color: #ddd;}
+
+      .dropdown:hover .dropdown-content {display: block;}
+
+      .dropdown:hover .dropbtn {background-color: #DA70D6;}
+
+      .pim{
+        margin: 0px 95px 0px 0px;
+      }
+      .staff{
+        margin: 0px 20px 0px 50px;
+      }
+        * {
+      box-sizing: border-box;
+      }
+
+      #myInput {
+      background-image: url('/css/searchicon.png');
+      background-position: 10px 12px;
+      background-repeat: no-repeat;
+      width: 100%;
+      font-size: 16px;
+      padding: 12px 20px 12px 40px;
+      border: 1px solid #ddd;
+      margin-bottom: 12px;
+      }
+
+      #myUL {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      }
+
+      #myUL li a {
+      border: 1px solid #ddd;
+      margin-top: -1px; /* Prevent double borders */
+      background-color: #f6f6f6;
+      padding: 12px;
+      text-decoration: none;
+      font-size: 18px;
+      color: black;
+      display: block
+      }
+
+      #myUL li a:hover:not(.header) {
+      background-color: #eee;
+      }
